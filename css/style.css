@@ -89,6 +89,8 @@ header {
     border-radius: 0.5rem;
     box-shadow: 0 2px 5px rgb(179, 179, 179);
     justify-content: center;
+    
+    box-sizing: border-box;
 }
 
 .proyecto {
@@ -99,7 +101,13 @@ header {
     justify-content: center;
     box-shadow: 0 2px 5px rgb(179, 179, 179);
     background-color: var(--color-4);
+    box-sizing: border-box;
 
+}
+
+ul li {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: var(--color-2);
 }
 
 a {
