@@ -1,0 +1,199 @@
+:root {
+    --color-1: #152133;
+    --color-2: #405168;
+    --color-3: #749698;
+    --color-4: #9FBDBD;
+    --color-5: #dde5e5;
+    --color-6: #EAEAEA;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3rem;
+    margin: 0;
+    color: var(--color-6);
+}
+
+h2{
+    color: var(--color-2);
+    align-self: center;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h3 {
+    color: var(--color-3);
+    margin: 0.1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p {
+    color: var(--color-1);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+hr {
+
+}
+
+section {
+    margin: 1rem;
+    padding: 1rem;
+    background-color: var(--color-5);
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 5px rgb(179, 179, 179);
+}
+
+nav {
+    padding: 1rem 0;
+    margin: 0.5rem;
+    align-items: center;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--color-3);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+nav a:hover{
+    color: var(--color-2);
+    font-size: 1.03rem;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+
+}
+
+header {
+    background-color: var(--color-1);
+    margin: 0;
+    box-shadow: 0 2px 5px rgb(179, 179, 179);
+    align-content: center;
+}
+
+
+.proyectos {
+    display: flex;
+    gap: 3rem;
+    margin: 1rem;
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 5px rgb(179, 179, 179);
+    justify-content: center;
+}
+
+.proyecto {
+    margin: 0.5rem;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 5px rgb(179, 179, 179);
+    background-color: var(--color-4);
+
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: var(--color-2);
+    font-size: 0.9rem;
+}
+a:hover {
+    color: var(--color-1);
+    font-size: 0.93rem;
+}
+
+form {
+    background-color: var(--color-2);
+    margin: 0.3rem;
+    padding: 1rem;
+    border-radius: 0.6rem;
+    box-shadow: 0 2px 5px rgb(179, 179, 179);
+    align-content: center;
+}
+
+.campo {
+    padding: 0.2rem;
+    margin: 0.6rem;
+    align-items: center;
+    align-content: flex-start;
+    display: flex;
+    justify-content: center;
+
+}
+
+.campo-doble {
+    display: flex;
+    gap: 1rem;
+}
+
+.campo label {
+    color: var(--color-5);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+
+}
+
+.campo input {
+    width: 100%;
+    padding: 0.5rem;
+    margin: 0.6rem;
+    border-radius: 0.5rem;
+    border: none;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: var(--color-1);
+}
+
+.botones{
+    align-content: flex-start;
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+
+button {
+ min-width: 20%;
+ min-height: 2rem;
+ font-size: 1rem;
+ border-radius: 0.5rem;
+ border-style: none;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ color: var(--color-5);
+    box-shadow: 0 2px 5px rgb(19, 20, 29);
+}
+
+.submit:hover {
+    min-width: 21%;
+    min-height: 2.1rem;
+    font-size: 1.05rem;
+    background-color: var(--color-4);
+}
+
+.cancelar:hover {
+    min-width: 21%;
+    min-height: 2.1rem;
+    font-size: 1.05rem;
+    background-color: #576880;
+}
+
+.submit {
+    background-color: var(--color-3);
+    cursor: pointer;
+}
+
+.cancelar {
+    background-color: var(--color-1);
+    cursor: pointer;
+}
